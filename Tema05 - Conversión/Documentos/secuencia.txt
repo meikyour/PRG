@@ -1,0 +1,20 @@
+- Almacenamiento de datos
+- Representación de datos
+  * Enteros - Bases numéricas
+  * Reales
+    - Formato praccionario
+    - Formato exponencial
+  * Caracteres
+    - Representación Simbólica
+    - Secuencia de escape
+    - Secuencia numérica
+  * Lógicos
+- Conversión Natural
+  * Primitivos
+  * Referenciales
+- Conversión forzada - Casting
+  * Tipos primitivos
+    > Compatibles
+    > Incompatibles
+  * Tipos referencialeS
+- Transformación

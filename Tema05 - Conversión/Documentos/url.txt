@@ -1,0 +1,2 @@
+Unicode UCS-2 Code Chart
+http://www.columbia.edu/kermit/ucs2.html

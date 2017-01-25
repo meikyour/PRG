@@ -1,0 +1,16 @@
+Java Escape Sequences:
+
+\u{0000-FFFF}  /* Unicode [Basic Multilingual Plane only, see below] hex value 
+                  does not handle unicode values higher than 0xFFFF (65535),
+                  the high surrogate has to be separate: \uD852\uDF62
+                  Four hex characters only (no variable width) */
+\b             /* \u0008: backspace (BS) */
+\t             /* \u0009: horizontal tab (HT) */
+\n             /* \u000a: linefeed (LF) */
+\f             /* \u000c: form feed (FF) */
+\r             /* \u000d: carriage return (CR) */
+\"             /* \u0022: double quote (") */
+\'             /* \u0027: single quote (') */
+\\             /* \u005c: backslash (\) */
+\{0-377}       /* \u0000 to \u00ff: from octal value 
+                  1 to 3 octal digits (variable width) */
