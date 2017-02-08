@@ -19,7 +19,7 @@ public class UtilesTemporales {
             // Extraer componentes.
             String h = hora.substring(0, hora.indexOf(":"));
             String m = hora.substring(hora.indexOf(':') + 1, hora.lastIndexOf(':'));
-            String s = hora.substring(hora.indexOf(':') + 1);
+            String s = hora.substring(hora.lastIndexOf(':') + 1);
 
             // Conversiones numericas.
             int hor = Integer.parseInt(h);
