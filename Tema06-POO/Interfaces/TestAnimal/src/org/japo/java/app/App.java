@@ -15,7 +15,9 @@
  */
 package org.japo.java.app;
 
-import org.japo.java.entities.Articulo;
+import org.japo.java.entities.Animal;
+import org.japo.java.interfaces.IAnimal;
+
 /**
  *
  * @author - Raul Granel - raul.granel@gmail.com
@@ -24,20 +26,18 @@ public class App {
 
     public void lanzarAplicacion() {
 
-        // ---------- Objeto Constructor Predeterminado ----------------.
-        Articulo p1 = new Articulo();
-        System.out.println(p1.getPrecio());
-        p1.setPrecio(23.0);
-        System.out.println(p1.getPrecio());
-        p1.mostrarPrecio();
+        // Objeto 1.
+        Animal a1 = new Animal();
+        a1.setPatas(26);
+        System.out.println(a1.getPatas());
 
-        System.out.println();
-        // ------------- Objeto Constructor Parametizado ---------------.
-        Articulo p2 = new Articulo(256);
-        System.out.println(p2.getPrecio());
-        p2.setPrecio(-158);
-        System.out.println(p2.getPrecio());
-        p2.mostrarPrecio();
+        // Objeto 2.
+        Animal a2 = new Animal(18);
+        a2.mostrarPatas();
+
+        // Objeto 3.
+        IAnimal ai1 = new Animal();
+        ai1.mostrarPatas();
     }
 
 }

@@ -13,31 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.japo.java.app;
+package org.japo.java.main;
 
-import org.japo.java.entities.Articulo;
+//Importación del paquete y la clase App.
+import org.japo.java.app.App;
+
 /**
  *
  * @author - Raul Granel - raul.granel@gmail.com
  */
-public class App {
+public class Main {
+    
+    public static void main(String[] args) {
 
-    public void lanzarAplicacion() {
-
-        // ---------- Objeto Constructor Predeterminado ----------------.
-        Articulo p1 = new Articulo();
-        System.out.println(p1.getPrecio());
-        p1.setPrecio(23.0);
-        System.out.println(p1.getPrecio());
-        p1.mostrarPrecio();
-
-        System.out.println();
-        // ------------- Objeto Constructor Parametizado ---------------.
-        Articulo p2 = new Articulo(256);
-        System.out.println(p2.getPrecio());
-        p2.setPrecio(-158);
-        System.out.println(p2.getPrecio());
-        p2.mostrarPrecio();
+        //Creación de Aplicación.
+        App app = new App();
+        
+        //Ejecutar Aplicación.
+        app.lanzarAplicacion();
     }
-
 }
