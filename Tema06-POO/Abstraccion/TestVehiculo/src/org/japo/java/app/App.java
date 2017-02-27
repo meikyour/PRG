@@ -25,25 +25,24 @@ import org.japo.java.entities.Moto;
 public class App {
 
     public void lanzarAplicacion() {
-        
+
         Camion c1 = new Camion();
         c1.mostrarInfo();
         c1.setContador(299);
-        
+
         Camion c2 = new Camion(-12345);
         c2.mostrarInfo();
         c2.setContador(40000);
-        
+
         Moto m1 = new Moto();
         m1.mostrarInfo();
         m1.setContador(12451);
         m1.mostrarInfo();
-        
+
         Moto m2 = new Moto();
         m2.mostrarInfo();
         m2.setContador(30000);
         m2.mostrarInfo();
-                
     }
-    
+
 }
