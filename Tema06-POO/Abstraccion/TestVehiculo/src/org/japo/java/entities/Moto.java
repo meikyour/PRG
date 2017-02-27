@@ -13,9 +13,9 @@ import org.japo.java.lib.UtilesVehiculo;
  */
 public class Moto extends Vehiculo {
 
-    public static final int KM_REVISION = 2000;
-    public static final int KM_COMPRA = 10;
-    public static final int KM_PROXIMIDAD = 30;
+    public static final int KM_REVISION = 12500;
+    public static final int KM_COMPRA = 5;
+    public static final int KM_PROXIMIDAD = 50;
 
     public Moto() {
         super(UtilesVehiculo.obtenerInicial(KM_COMPRA), KM_COMPRA);

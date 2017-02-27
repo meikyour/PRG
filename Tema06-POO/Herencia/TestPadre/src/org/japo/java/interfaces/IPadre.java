@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.japo.java.app;
+package org.japo.java.interfaces;
 
 /**
  *
  * @author - Raul Granel - raul.granel@gmail.com
  */
-class ITrasto {
-    
+public interface IPadre {
+
+    public void saludar();
 }
