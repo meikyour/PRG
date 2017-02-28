@@ -1,0 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.japo.java.interfaces;
+
+/**
+ *
+ * @author - Raul Granel - raul.granel@gmail.com
+ */
+public interface IDecimo {
+
+    public String toString();
+    public boolean equals(Object obj);
+    public int hashCode();
+    public void mostrarDecimo();
+}
