@@ -15,9 +15,6 @@
  */
 package org.japo.java.app;
 
-// Importación del paquete de la libreria.
-import org.japo.java.lib.UtilesAcumularArray;
-
 /**
  *
  * @author - Raul Granel - raul.granel@gmail.com
@@ -25,25 +22,7 @@ import org.japo.java.lib.UtilesAcumularArray;
 public class App {
 
     public void lanzarAplicacion() {
-
-        // Constantes.
-        final int LONG_LISTA = 5;
-        final double MIN = 0;
-        final double MAX = 42;
-
-        // Instancia Array.
-        double[] lista = new double[LONG_LISTA];
-
-        // Método que rellena el Array con valores aleatorios.
-        UtilesAcumularArray.llenarArrayAleatorio(lista, MIN, MAX);
-
-        // Muestra lo que hay en el Array en cada posición.
-        for (int i = 0; i < lista.length; i++) {
-            System.out.printf("Dato %d........: %.2f\n", i + 1, lista[i]);
-        }
-
-        // Muestra el total acumulado por el Array.
-        System.out.printf("Total suma........: %.2f\n", UtilesAcumularArray.sumarArrayReal(lista));
+        
     }
-
+    
 }

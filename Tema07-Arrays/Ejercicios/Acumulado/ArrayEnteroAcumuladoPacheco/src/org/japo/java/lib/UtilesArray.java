@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author - Raul Granel - raul.granel@gmail.com
  */
-public class UtilesAcumularArray {
+public class UtilesArray {
 
     public static final Random RND = new Random(System.currentTimeMillis());
 
